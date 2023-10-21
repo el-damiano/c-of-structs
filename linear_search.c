@@ -1,12 +1,12 @@
 #include "linear_search.h"
 
-int linearSearch(int query, size_t arrLength, int *arr) {
+int linearSearch(int *arr, size_t arrSize, int query) {
 
-    for (int i = 0; i < arrLength; i++) {
+    for (unsigned i = 0; i < arrSize; i++) {
         if (arr[i] == query) {
             return 1;
         }
     }
-    return -1;
+    return 0;
 
 }
