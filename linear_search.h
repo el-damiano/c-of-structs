@@ -3,6 +3,10 @@
 
 #include <stdio.h>
 
-int linearSearch(int query, size_t arrLength, int *arr);
+int linearSearch(int *arr, size_t arrSize, int query);
 
+#endif
+
+#if !defined (ARRIZE)
+#define ARRSIZE(array)  (sizeof(array) / sizeof((array)[0]))
 #endif
