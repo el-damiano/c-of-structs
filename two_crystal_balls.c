@@ -14,7 +14,6 @@ int twoCrystalBalls(bool *break_points, size_t size) {
 
     for (unsigned j = 0; j < size && j < leap; i++, j++) {
         if (break_points[i]) {
-            printf("i: %d\n", i);
             return i;
         }
     }
