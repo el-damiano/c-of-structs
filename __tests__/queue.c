@@ -1,6 +1,5 @@
 #include "../queue.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 unsigned long glength = 0;
 
