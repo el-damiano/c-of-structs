@@ -1,5 +1,3 @@
-// https://www.pvv.ntnu.no/~hakonhal/main.cgi/c/classes/
-
 #include "queue.h"
 #include <stdio.h>
 #include <stdlib.h>
