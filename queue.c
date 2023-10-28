@@ -1,5 +1,4 @@
 #include "queue.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 void enqueue(struct Node **phead, struct Node **ptail, int item) {
